@@ -20,7 +20,6 @@ app.post("/send-email", (req, res) => {
     service: "Gmail",
     auth: {
       user: "arcilacamila08@gmail.com", // Cambia esto con tu correo electrónico
-      pass: "password", // Cambia esto con tu contraseña
     },
   })
 
