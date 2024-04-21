@@ -34,6 +34,7 @@ body.active {
 .no-js #experience-timeline:after {
   content: none;
 }
+
 @keyframes dropHeader {
   0% {
     transform: translateY(-100%);
@@ -295,6 +296,26 @@ footer {
   padding: 75px 15px;
   border-bottom: 1px solid #dcd9d9;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 #about h2 {
   color: #374054;
 }
@@ -302,6 +323,7 @@ footer {
   color: #74808a;
   margin: 0;
 }
+
 #experience {
   padding: 50px 15px;
   text-align: center;
