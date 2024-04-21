@@ -1,4 +1,4 @@
-!(function (n) {
+;(function (n) {
   n("html").removeClass("no-js"),
     n("header a").click(function (e) {
       if (!n(this).hasClass("no-scroll")) {
