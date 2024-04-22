@@ -457,6 +457,47 @@ body {
 .education-block ul {
   padding: 0 0 0 15px;
 }
+#background {
+  padding: 50px 15px 20px 15px;
+  border-bottom: 1px solid #dcd9d9;
+  text-align: center;
+}
+#background h2 {
+  color: #374054;
+  margin-bottom: 50px;
+}
+.background-block {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  border: 1px solid #dcd9d9;
+  text-align: left;
+}
+.background-block h3 {
+  font-weight: 500;
+  float: left;
+  margin: 0;
+  color: #374054;
+}
+.background-block span {
+  color: #74808a;
+  float: right;
+}
+.background-block h4 {
+  color: #74808a;
+  clear: both;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+.background-block p,
+.background-block ul {
+  margin: 0;
+  color: #74808a;
+  font-size: 0.9em;
+}
+.background-block ul {
+  padding: 0 0 0 15px;
+}
 
 #projects {
   padding: 50px 15px 20px 15px;
@@ -499,6 +540,7 @@ body {
 .projects-block ul {
   padding: 0 0 0 15px;
 }
+
 #education {
   padding: 50px 15px 20px 15px;
   border-bottom: 1px solid #dcd9d9;
@@ -540,6 +582,48 @@ body {
 .education-block ul {
   padding: 0 0 0 15px;
 }
+#background {
+  padding: 50px 15px 20px 15px;
+  border-bottom: 1px solid #dcd9d9;
+  text-align: center;
+}
+#background h2 {
+  color: #374054;
+  margin-bottom: 50px;
+}
+.background-block {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  border: 1px solid #dcd9d9;
+  text-align: left;
+}
+.background-block h3 {
+  font-weight: 500;
+  float: left;
+  margin: 0;
+  color: #374054;
+}
+.background-block span {
+  color: #74808a;
+  float: right;
+}
+.background-block h4 {
+  color: #74808a;
+  clear: both;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+.background-block p,
+.background-block ul {
+  margin: 0;
+  color: #74808a;
+  font-size: 0.9em;
+}
+.background-block ul {
+  padding: 0 0 0 15px;
+}
+
 #skills {
   padding: 50px 15px;
   text-align: center;
@@ -752,6 +836,10 @@ body {
   }
   .education-block h3,
   .education-block span {
+    float: none;
+  }
+  .background-block h3,
+  .background-block span {
     float: none;
   }
   .projects-image {
